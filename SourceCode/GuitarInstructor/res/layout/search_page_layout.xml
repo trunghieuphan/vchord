@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" 
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtAutoCompleteSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        style="@style/widget_AutoCompleteTextView" >
+		
+        
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:background="@drawable/btn_search_selector"
+        android:text="@string/btn_search_text"
+        android:textSize="@dimen/size_text_large"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio_search_by"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_search_by_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_default"
+            android:checked="true"
+            android:text="@string/search_by_song"
+            android:textSize="@dimen/size_text_normal"
+             />
+
+        <RadioButton
+            android:id="@+id/radio_search_by_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_default"
+            android:text="@string/search_by_author" 
+            android:textSize="@dimen/size_text_normal"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_search_by_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_default"
+            android:text="@string/search_by_singer" 
+            android:textSize="@dimen/size_text_normal"
+            />
+    </RadioGroup>
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/drop_down_rhythm"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/drop_down_min_height"
+        android:layout_margin="@dimen/margin_default"
+        android:prompt="@string/rhythm_prompt" 
+        
+        />
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/drop_down_difficulty"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/drop_down_min_height"
+        android:layout_margin="@dimen/margin_default"
+        android:prompt="@string/difficulty_prompt" 
+        
+        />
+
+    <com.actionbarsherlock.internal.widget.IcsSpinner
+        android:id="@+id/drop_down_melody"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/drop_down_min_height"
+        android:layout_margin="@dimen/margin_default"
+        android:prompt="@string/melody_prompt" />
+
+</LinearLayout>

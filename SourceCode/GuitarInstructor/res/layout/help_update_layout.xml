@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:shrinkColumns="0"
+    android:stretchColumns="1" >
+
+    <TableRow android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:text="@string/lbl_last_update" />
+        <TextView
+            android:id="@+id/txtSongLastUpdated"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:layout_column="1" />
+        
+    </TableRow>
+
+   
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnUpdateSongs"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_update_button" />
+    </LinearLayout>
+
+</TableLayout>

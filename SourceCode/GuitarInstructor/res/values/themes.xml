@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <style name="DefaultTheme" parent="Theme.Sherlock">
+<!--         <item name="android:textSize">@dimen/size_text_normal</item> -->
+        <item name="ic_action_update">@drawable/ic_action_update</item>
+        <item name="ic_action_account">@drawable/ic_action_account</item>
+        <item name="ic_action_search">@drawable/ic_action_search_dark</item>
+        <item name="ic_action_help">@drawable/ic_action_help_dark</item>
+        <item name="ic_action_favourite">@drawable/ic_action_favourite_dark</item>
+        <item name="ic_action_about">@drawable/ic_action_about_dark</item>
+        <item name="ic_action_comment">@drawable/ic_action_comment_dark</item>
+        <item name="ic_action_facebook">@drawable/ic_action_facebook_dark</item>
+        <item name="ic_action_music_note">@drawable/ic_action_music_note_dark</item>
+        <item name="ic_action_music_run">@drawable/ic_action_music_run_dark</item>
+        <item name="ic_action_minus">@drawable/ic_action_minus</item>
+        <item name="ic_action_plus">@drawable/ic_action_plus</item>
+        <item name="ic_action_scroll">@drawable/ic_action_scroll_dark</item>
+        <item name="text_tab">@style/text_tab_dark</item>
+        <item name="text_song_detail">@style/text_song_detail</item>
+        <item name="text_song_item_name">@style/text_song_item_name_dark</item>
+        <item name="text_song_item_artist_name">@style/text_song_item_artist_name_dark</item>
+
+    </style>
+
+    <style name="LightTheme" parent="Theme.Sherlock.Light">
+        <item name="ic_action_search">@drawable/ic_action_search_light</item>
+        <item name="ic_action_help">@drawable/ic_action_help_light</item>
+        <item name="ic_action_favourite">@drawable/ic_action_favourite_light</item>
+        <item name="ic_action_about">@drawable/ic_action_about_light</item>
+        <item name="ic_action_comment">@drawable/ic_action_comment_light</item>
+        <item name="ic_action_facebook">@drawable/ic_action_facebook_light</item>
+        <item name="ic_action_music_note">@drawable/ic_action_music_note_light</item>
+        <item name="ic_action_music_run">@drawable/ic_action_music_run_light</item>
+        <item name="ic_action_scroll">@drawable/ic_action_scroll_light</item>
+        <item name="ic_action_minus">@drawable/ic_action_minus</item>
+        <item name="ic_action_plus">@drawable/ic_action_plus</item>
+        <item name="text_tab">@style/text_tab_light</item>
+        <item name="text_song_detail">@style/text_song_detail</item>
+        <item name="text_song_item_name">@style/text_song_item_name_light</item>
+        <item name="text_song_item_artist_name">@style/text_song_item_artist_name_light</item>
+    </style>
+
+</resources>

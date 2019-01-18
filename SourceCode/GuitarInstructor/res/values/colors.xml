@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="HoloLightBlue">#33b5e5</color>
+    <color name="HoloBlue">#09c</color>
+    
+    
+    <color name="white">#FFFFFF</color>
+    <color name="green">#66FF33</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2F74F5</color>
+    <color name="light_pink">#FAF2F5</color>
+    <color name="Gray">#808080</color>
+    
+     	
+    <color name="LightGray">#D3D3D3</color>
+    
+    
+    <color name="DarkSlateGray">#16394D</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkBlue">#00008B</color>
+    
+    <color name="DimGray">#696969</color>
+    <color name="DarkGreen">#669900</color>
+    <color name="DarkRed">#CC0000</color>
+    <color name="LightRed">#f44</color>
+    <color name="LightGreen">#9c0</color>
+    <color name="LightColor">#f44</color>
+    
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Gainsboro">#DCDCDC</color>
+     	
+     	
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

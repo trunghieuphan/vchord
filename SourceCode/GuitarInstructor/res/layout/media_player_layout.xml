@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4a4a4a"
+    android:orientation="vertical" >
+
+    <!-- Player Header -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@layout/bg_player_header"
+        android:paddingBottom="@dimen/margin_default"
+        android:paddingTop="@dimen/margin_default" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_default"
+            android:paddingTop="@dimen/margin_default"
+            android:text="@string/text_media_player"
+            android:textSize="@dimen/size_text_normal" />
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_default"
+            android:background="@null"
+            android:paddingBottom="@dimen/margin_default"
+            android:src="@drawable/ic_action_close_music" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/timerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_default"
+        android:padding="@dimen/padding_default" >
+
+        <TextView
+            android:id="@+id/songCurrentDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#eeeeee"
+            android:textSize="@dimen/size_text_normal"
+            android:textStyle="bold"
+            android:width="100dp" />
+
+        <TextView
+            android:id="@+id/songTotalDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:textColor="#04cbde"
+            android:textSize="@dimen/size_text_normal"
+            android:textStyle="bold"
+            android:width="100dp" />
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/songProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:padding="@dimen/padding_default"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seek_bar_handle" />
+
+    <LinearLayout
+        android:id="@+id/player_footer_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/bg_player_footer"
+        android:gravity="center"
+        android:padding="@dimen/padding_default" >
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_default"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_play_music" />
+    </LinearLayout>
+
+</LinearLayout>

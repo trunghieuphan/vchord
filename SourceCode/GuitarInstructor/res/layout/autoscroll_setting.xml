@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_default" 
+   >
+
+    <LinearLayout
+        android:id="@+id/delayTimeSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_default" 
+        >
+
+        <TextView
+            android:id="@+id/lblDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_delay" 
+            android:textSize="@dimen/size_text_small"
+            />
+
+        <EditText
+            android:id="@+id/txtDelay"
+            android:layout_width="@dimen/width_textbox_delay"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:digits="0123456789"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="0"
+            android:textSize="@dimen/size_text_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default"
+            android:text="@string/text_second" 
+            android:textSize="@dimen/size_text_small"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_before_starting" 
+            android:textSize="@dimen/size_text_small"
+            />
+    </LinearLayout>
+    
+    <TextView
+            android:id="@+id/lblAutoScrollTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_scroll_speed" 
+            android:layout_marginTop="@dimen/margin_default"
+            />
+    
+    <TextView
+                android:id="@+id/seekBarValueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_default"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textSize="@dimen/size_text_very_large" />
+
+    <SeekBar
+        android:id="@+id/verticalSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:max="20"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/txtNotActivated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/msg_not_activated"
+        android:textColor="@color/LightRed"
+        android:textSize="@dimen/size_text_normal"
+        android:visibility="gone" />
+
+</LinearLayout>

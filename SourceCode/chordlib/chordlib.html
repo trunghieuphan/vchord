@@ -1,0 +1,87 @@
+<html>
+<head>
+<SCRIPT LANGUAGE="JavaScript" SRC="cc.js"></SCRIPT><TITLE>WS64 Guitar Chords</TITLE>
+</head>
+<body>
+
+<form name="guitar">
+<table><tbody><tr><td>
+
+<table><tbody><tr>
+<td colspan="2" align="center"><input type="radio" name="ChordArt" value="Normal" checked="" onclick="sg2(0)"><br>Normal&nbsp;Chords:</td></tr><tr>
+<td align="center" valign="top"><select name="chord" size="12" onchange="sg2(0)" onclick="sg2(0)"><option selected="">C</option><option>C#/Db</option><option>D</option><option>D#/Eb</option><option>E</option><option>F</option><option>F#/Gb</option><option>G</option><option>G#/Ab</option><option>A</option><option>A#/Bb</option><option>B</option></select></td>
+<td align="center" valign="top">
+<!--
+<select name="majmin" size="12" onchange="sg2(0)" onclick="sg2(0)">
+<option selected="">Major</option>
+<option>Minor</option>
+<option>dim</option>
+<option>aug</option>
+<option>sus</option>
+<option>6</option>
+<option>7</option>
+<option>maj7</option>
+<option>9</option>
+<option>add9</option>
+<option>m6</option>
+<option>m7</option>
+<option>mmaj7</option>
+<option>m9</option>
+<option>11</option>
+<option>7sus4</option>
+<option>13</option>
+<option>6add9</option>
+<option>-5</option>
+<option>7-5</option>
+<option>7maj5</option>
+<option>maj9</option>
+</select>
+-->
+
+<select name="majmin" size="12" onchange="sg2(0)" onclick="sg2(0)">
+<option selected="">Major</option>
+<option>Minor</option>
+<option>7</option>
+<option>m7</option>
+</select>
+
+</td>
+</tr></tbody></table>
+
+</td><td align="center" valign="top">
+
+<table><tbody><tr>
+<td colspan="2" align="center" valign="top"><input type="radio" name="ChordArt" value="Special" onclick="sg2(1)"><br>Special&nbsp;Chords:</td>
+</tr><tr>
+<td align="center" valign="top">
+<select name="special" size="12" onchange="sg2(1)" onclick="sg2(1)">
+<option selected="">C/E</option><option>C/F</option><option>C/G
+</option><option>D/F#</option><option>D/A</option><option>D/Bb</option><option>D/B</option><option>D/C
+</option><option>E/B</option><option>E/C#</option><option>E/D</option><option>E/D#</option><option>E/F</option><option>E/F#</option><option>E/G</option><option>E/G#
+</option><option>Em/B</option><option>Em/C#</option><option>Em/D</option><option>Em/D#</option><option>Em/F</option><option>Em/F#</option><option>Em/G</option><option>Em/G#
+</option><option>F/C</option><option>F/D</option><option>F/D#</option><option>F/E</option><option>F/G</option><option>F/A
+</option><option>Fm/C
+</option><option>G/B</option><option>G/D</option><option>G/E</option><option>G/F</option><option>G/F#
+</option><option>A/C#</option><option>A/E</option><option>A/F</option><option>A/F#</option><option>A/G</option><option>A/G#
+</option><option>Am/C</option><option>Am/E</option><option>Am/F</option><option>Am/F#</option><option>Am/G</option><option>Am/G#
+</option></select>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr><td colspan="2" align="center">
+<input type="button" value="Variations" name="More" onclick="setMore()">
+<input type="button" value="MIDI" onclick="chalo()">
+<input type="button" value="Chord Info" onclick="info()">
+<input type="button" value="gen" onclick="gen()">
+<hr>
+
+
+</td></tr>
+</tbody></table>
+<textarea name='chordlist' rows="10" cols="50" ></textarea>
+
+
+</form>
+
+</body>
+</html>

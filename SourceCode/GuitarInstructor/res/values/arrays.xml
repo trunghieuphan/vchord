@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mobile_cardtype_keys">
+        <item>VMS</item>
+        <item>VNP</item>
+        <item>VIETTEL</item>
+    </string-array>
+    <string-array name="mobile_cardtype_values">
+        <item>Mobifone</item>
+        <item>Vinaphone</item>
+        <item>Viettel</item>
+    </string-array>
+    <string-array name="price_list_filter">
+        <item>Tất cả</item>
+        <item>0đ</item>
+        <item>1000đ</item>
+    </string-array>
+
+</resources>

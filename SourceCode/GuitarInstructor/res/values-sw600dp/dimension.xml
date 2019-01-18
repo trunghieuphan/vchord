@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="element_margin_top">5dp</dimen>
+    <dimen name="element_margin_left">10dp</dimen>
+    <dimen name="element_margin_right">10dp</dimen>
+    <dimen name="text_box_min_height">40dp</dimen>
+    <dimen name="button_min_height">40dp</dimen>
+    <dimen name="drop_down_min_height">40dp</dimen>
+    <dimen name="section_margin_top">30dp</dimen>
+    <dimen name="rating_star_height">24dp</dimen>
+    <dimen name="rating_star_width">24dp</dimen>
+    <dimen name="rating_star_right_padding">3dp</dimen>
+    
+    <dimen name="margin_menu_item">10dp</dimen>
+    <dimen name="margin_song_item">10dp</dimen>
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="margin_default_2x">20dp</dimen>
+    <dimen name="padding_default">10dp</dimen>
+    
+    <dimen name="size_text_very_small">13sp</dimen>
+    <dimen name="size_text_small">16sp</dimen>
+    <dimen name="size_text_normal">22sp</dimen>
+    <dimen name="size_text_large">28sp</dimen>
+    <dimen name="size_text_very_large">34sp</dimen>
+
+    <dimen name="height_button_small">40dp</dimen>
+    <dimen name="width_button_small_">100dp</dimen>
+    <dimen name="width_textbox_tone">100dp</dimen>
+    <dimen name="width_textbox_delay">50dp</dimen>
+    <dimen name="width_textbox">100dp</dimen>
+    <dimen name="height_textbox">40dp</dimen>
+    <dimen name="height_list_item">45dp</dimen>
+    <dimen name="height_list_song_item">70dp</dimen>
+    
+    <dimen name="radius_button">10dp</dimen>
+    <dimen name="width_border_button">1dp</dimen>
+
+</resources>

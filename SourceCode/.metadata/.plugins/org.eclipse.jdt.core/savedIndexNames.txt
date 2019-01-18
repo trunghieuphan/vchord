@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+D:\GuitarTest\SourceCode\.metadata\.plugins\org.eclipse.jdt.core
+552110744.index
+113956179.index
+2159467150.index
+3065416851.index
+363832594.index
+1531412002.index
+3188503930.index

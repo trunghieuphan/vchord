@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MusicContainer">
+        <attr name="android:verticalSpacing" />
+        <attr name="android:horizontalSpacing" />
+    </declare-styleable>
+
+    <attr name="ic_action_search" format="reference" />
+    <attr name="ic_action_help" format="reference" />
+    <attr name="ic_action_favourite" format="reference" />
+    <attr name="ic_action_about" format="reference" />
+    <attr name="ic_action_comment" format="reference" />
+    <attr name="ic_action_facebook" format="reference" />
+    <attr name="ic_action_music_note" format="reference" />
+    <attr name="ic_action_music_run" format="reference" />
+    <attr name="ic_action_scroll" format="reference" />
+    <attr name="ic_action_minus" format="reference" />
+    <attr name="ic_action_plus" format="reference" />
+    <attr name="ic_action_update" format="reference" />
+    <attr name="ic_action_account" format="reference" />
+    
+    <attr name="text_tab" format="reference" />
+    <attr name="text_song_item_name" format="reference" />
+    <attr name="text_song_item_artist_name" format="reference" />
+    <attr name="text_song_detail" format="reference" />
+
+</resources>

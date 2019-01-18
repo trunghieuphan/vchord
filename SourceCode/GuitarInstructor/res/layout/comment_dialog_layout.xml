@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_default"
+    android:padding="@dimen/padding_default"
+    android:orientation="vertical" >
+
+ 	<RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0" />
+ 
+    <EditText
+        android:id="@+id/txtCommentSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_subject" 
+        android:layout_marginTop="@dimen/margin_default_2x"
+        />
+
+    <EditText
+        android:id="@+id/txtCommentContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_comment"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:scrollbars="vertical" 
+        android:layout_marginTop="@dimen/margin_default"
+        android:gravity="top|left"
+        />
+</LinearLayout>

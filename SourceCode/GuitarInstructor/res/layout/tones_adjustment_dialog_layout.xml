@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_default" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:textAlignment="center" >
+
+            <ImageButton
+                android:id="@+id/btnDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_minus" />
+
+            <TextView
+                android:id="@+id/txtToneValue"
+                android:layout_width="@dimen/width_textbox_tone"
+                android:layout_height="@dimen/height_textbox"
+                android:gravity="top|center"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_very_large"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_plus" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNotActivated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/msg_not_activated"
+            android:textColor="@color/LightRed"
+            android:textSize="@dimen/size_text_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
